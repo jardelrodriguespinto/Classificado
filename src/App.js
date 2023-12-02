@@ -1,12 +1,14 @@
 import React from "react";
-import  NavbarPersonalizada from "./components/NavbarPersonalizada";
+  import  MainHome from "./components/MainHome";
+import  Header from "./components/Header";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const App = () => {
   return (
   <>
-  <NavbarPersonalizada/>
+    <Header/>
+    <MainHome/>
   </>);
 };
 
