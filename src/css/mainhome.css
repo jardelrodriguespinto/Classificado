@@ -1,3 +1,12 @@
-.mainhome{
-    background-color: red;
+.primeira-secao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mainhome {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
 }

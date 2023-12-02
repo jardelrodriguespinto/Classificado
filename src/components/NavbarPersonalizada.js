@@ -10,7 +10,7 @@ import { FaRegUser } from "react-icons/fa";
 
 function NavbarPersonalizada() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary" sbg="primary" data-bs-theme="ligth">
+    <Navbar expand="lg" className="bg-body-tertiary" sbg="primary" data-bs-theme="dark">
       <Container> 
         <img src={logo} className='logo'/>
       </Container>

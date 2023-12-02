@@ -1,4 +1,5 @@
 import NavbarPersonalizada from "./NavbarPersonalizada";
+import '../css/navbarpersonalizada.css'
 
 function Header() {
   return (
