@@ -21,6 +21,7 @@ function NavbarPersonalizada() {
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#anuncios">Anuncios</Nav.Link>
+            <Nav.Link href="#anuncios">Categorias</Nav.Link>
             <FaRegUser className='user-picture'/>
             <NavDropdown title="Registre-se" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.3">Login</NavDropdown.Item>
