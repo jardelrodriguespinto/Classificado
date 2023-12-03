@@ -8,7 +8,8 @@ function Home(){
     <Header/>
     <MainHome/>
     <Footer/>
-  </>);
+  </>
+  );
 };
 
 export default Home;
