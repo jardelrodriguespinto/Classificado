@@ -15,8 +15,6 @@ function MainHome() {
         <CardPersonalizado/>
         <CardPersonalizado/>
         <CardPersonalizado/>
-        <CardPersonalizado/>
-        <CardPersonalizado/>
       </main>
       <Paginacao/>
     </section>

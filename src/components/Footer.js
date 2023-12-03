@@ -3,7 +3,7 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-k
 
 function Footer() {
 
-  let copyright = "©" + buscaAno() + " Copyright:";
+  let copyright = "©" + buscaAno() + " Copyright: ";
 
   return (
     <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
@@ -118,10 +118,8 @@ function Footer() {
       </section>
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-        {copyright}
-        <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
-          MDBootstrap.com
-        </a>
+          {copyright}
+          <span>Jardel Rodrigues</span>
       </div>
     </MDBFooter>
   );
