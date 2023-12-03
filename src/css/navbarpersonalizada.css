@@ -1,8 +1,28 @@
+header{
+    margin-bottom: 100px;
+}
+
+.navbar{
+    background-color: rgb(182, 194, 178);
+    height: 150px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 20px;
+}
 .logo {
     width: 400px;
-    height: 300px;    
+    height: 150px;    
+}
+
+.colapse{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-items: right;
+
 }
 
 .user-picture{
-    margin-bottom: 10px;
+    margin-top: 13px;
 }

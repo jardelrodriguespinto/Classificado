@@ -1,15 +1,10 @@
 import React from "react";
-  import  MainHome from "./components/MainHome";
-import  Header from "./components/Header";
+import Home from './components/Home'
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import './css/home.css'
 
 const App = () => {
-  return (
-  <>
-    <Header/>
-    <MainHome/>
-  </>);
+  return <Home/>;
 };
 
 export default App;
