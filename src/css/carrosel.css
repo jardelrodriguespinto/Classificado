@@ -1,0 +1,13 @@
+.carrosel{
+    width: 600px;
+    height: 600px;
+}
+
+.carousel-control-next{
+    color: red;
+}
+
+.img{
+    width: 800px;
+    height: 500px;
+}

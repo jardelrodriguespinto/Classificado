@@ -1,0 +1,6 @@
+.img-anuncio{
+    display: flex;
+    margin-left: 100px;
+    justify-self: center;
+    align-items: center;
+}
